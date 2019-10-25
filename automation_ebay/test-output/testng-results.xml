@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite test" duration-ms="423095" started-at="2019-10-25T20:55:47Z" finished-at="2019-10-25T21:02:50Z">
+    <groups>
+    </groups>
+    <test name="CU01" duration-ms="423095" started-at="2019-10-25T20:55:47Z" finished-at="2019-10-25T21:02:50Z">
+      <class name="pe.com.hitss.testcases.T_automationExam">
+        <test-method status="PASS" signature="Configuracion()[pri:0, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="Configuracion" is-config="true" duration-ms="34943" started-at="2019-10-25T20:55:47Z" finished-at="2019-10-25T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Configuracion -->
+        <test-method status="PASS" signature="iniciarTest(java.lang.reflect.Method)[pri:0, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="iniciarTest" is-config="true" duration-ms="1" started-at="2019-10-25T20:56:22Z" finished-at="2019-10-25T20:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pe.com.hitss.testcases.T_automationExam.Ingreso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarTest -->
+        <test-method status="PASS" signature="Ingreso()[pri:1, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="Ingreso" duration-ms="4" started-at="2019-10-25T20:56:22Z" finished-at="2019-10-25T20:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ingreso -->
+        <test-method status="PASS" signature="printResult(org.testng.ITestResult)[pri:0, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="printResult" is-config="true" duration-ms="1" started-at="2019-10-25T20:56:22Z" finished-at="2019-10-25T20:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ingreso status=SUCCESS method=T_automationExam.Ingreso()[pri:1, instance:pe.com.hitss.testcases.T_automationExam@517cd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResult -->
+        <test-method status="PASS" signature="iniciarTest(java.lang.reflect.Method)[pri:0, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="iniciarTest" is-config="true" duration-ms="0" started-at="2019-10-25T20:56:22Z" finished-at="2019-10-25T20:56:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void pe.com.hitss.testcases.T_automationExam.aniadirCotizacionNatural(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarTest -->
+        <test-method status="PASS" signature="aniadirCotizacionNatural(java.lang.String, java.lang.String)[pri:2, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="aniadirCotizacionNatural" duration-ms="387556" started-at="2019-10-25T20:56:22Z" data-provider="dataCliente" finished-at="2019-10-25T21:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shoes]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PUMA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aniadirCotizacionNatural -->
+        <test-method status="PASS" signature="printResult(org.testng.ITestResult)[pri:0, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="printResult" is-config="true" duration-ms="1" started-at="2019-10-25T21:02:50Z" finished-at="2019-10-25T21:02:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aniadirCotizacionNatural status=SUCCESS method=T_automationExam.aniadirCotizacionNatural(java.lang.String, java.lang.String)[pri:2, instance:pe.com.hitss.testcases.T_automationExam@517cd4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResult -->
+        <test-method status="PASS" signature="End()[pri:0, instance:pe.com.hitss.testcases.T_automationExam@517cd4b]" name="End" is-config="true" duration-ms="0" started-at="2019-10-25T21:02:50Z" finished-at="2019-10-25T21:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- End -->
+      </class> <!-- pe.com.hitss.testcases.T_automationExam -->
+    </test> <!-- CU01 -->
+  </suite> <!-- suite test -->
+</testng-results>
